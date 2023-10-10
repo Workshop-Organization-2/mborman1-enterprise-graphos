@@ -57,11 +57,11 @@ coprocessor:
       body: true
 
 # Persisted Queries
-# preview_persisted_queries:
-#   enabled: true
-#   safelist:
-#     enabled: true
-#     require_id: false
+preview_persisted_queries:
+  enabled: true
+  safelist:
+    enabled: true
+    require_id: true
 apq:
   enabled: true
 
