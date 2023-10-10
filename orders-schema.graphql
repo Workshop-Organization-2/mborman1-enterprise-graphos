@@ -1,5 +1,5 @@
 extend schema
-  @link(url: "https://specs.apollo.dev/federation/v2.5", import: ["@key"])
+  @link(url: "https://specs.apollo.dev/federation/v2.5", import: ["@key", "@authenticated"])
 
 type Query {
   """
@@ -36,6 +36,3 @@ type User @key(fields: "id", resolvable: false) {
 type ProductVariant @key(fields: "id", resolvable: false) {
   id: ID!
 }
-
-extend schema
-  @link(url: "https://specs.apollo.dev/federation/v2.5", import: ["@key", "@authenticated"])
