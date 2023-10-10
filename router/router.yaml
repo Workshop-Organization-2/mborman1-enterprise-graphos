@@ -63,5 +63,5 @@ preview_persisted_queries:
     enabled: true
     require_id: false
 apq:
-  enabled: false
+  enabled: true
 
